@@ -1,5 +1,5 @@
 var dog,sadDog,happyDog;
-
+var feedPet, addFood;
 
 function preload(){
   sadDog=loadImage("Images/Dog.png");
@@ -12,6 +12,8 @@ function setup() {
   dog=createSprite(800,200,150,150);
   dog.addImage(sadDog);
   dog.scale=0.15;
+
+  
 
 }
 
